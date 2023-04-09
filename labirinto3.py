@@ -37,7 +37,7 @@ def DFS(m):
 if __name__=='__main__':
     # LARGURA_LABIRINTO = int(input("Digite a largura do labirinto: "))
     # ALTURA_LABIRINTO = int(input("Digite a altura do labirinto: "))
-    m=maze(60,60)
+    m=maze(15,15)
     m.CreateMaze(loopPercent=100)
     path=DFS(m)
     a=agent(m,footprints=True)
